@@ -90,6 +90,7 @@ func main() {
 			} else if shouldOutput {
 				fmt.Print(output)
 			}
+			time.Sleep(10 * time.Millisecond)
 		}
 	}()
 
